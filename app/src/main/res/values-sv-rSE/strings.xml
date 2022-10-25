@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gasvolym Beräkning</string>
+    <string name="calculate_button_text">Beräkna</string>
+    <string name="result_label_text">Gasvolym (m<sup>3</sup>)</string>
+    <string name="pressure_custom_hint_text">Ange ett övertryck</string>
+    <string name="pressure_selection_hint_text">Välj ett övertryck</string>
+    <string name="length_hint_text">Ange en längd</string>
+    <string name="pressure_label_text">Övertryck (mbar)</string>
+    <string name="length_label_text">Längd (m)</string>
+    <string name="radius_hint_text">Välj en dimension</string>
+    <string name="dn_hint_text">*DN: dimensionslös specifikation som inte exakt motsvarar en storlek i millimeter</string>
+</resources>

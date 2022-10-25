@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Gas Volume Calculator</string>
+
+    <string name="radius_label_text" translatable="false">Nominal Pipe Size | <sup>*</sup>DN (mm)</string>
+    <string name="dn_hint_text">*DN: dimensionless specification that inexactly corresponds to a size in millimeters</string>
+    <string name="radius_hint_text">Select a dimension</string>
+
+    <string name="length_label_text">Length (m)</string>
+    <string name="length_hint_text">Type in a length</string>
+
+    <string name="pressure_label_text">Pressure (mbar)</string>
+    <string name="pressure_selection_hint_text">Select a pressure</string>
+    <string name="pressure_custom_hint_text">Type in a pressure</string>
+
+    <string name="calculate_button_text">Calculate</string>
+
+    <string name="result_label_text">Gas volume (m<sup>3</sup>)</string>
+
+    <string-array name="radius_array">
+        <item>3⁄4 | 20</item>
+        <item>1 | 25</item>
+        <item>1 1⁄4 | 32</item>
+        <item>1 1⁄2 | 40</item>
+        <item>2 | 50</item>
+        <item>2 1⁄2 | 65</item>
+        <item>3 | 80</item>
+        <item>3 1⁄2 | 90</item>
+        <item>4 | 100</item>
+        <item>4 1⁄2 | 115</item>
+        <item>5 | 125</item>
+        <item>6 | 150</item>
+        <item>8 | 200</item>
+        <item>10 | 250</item>
+        <item>12 | 300</item>
+        <item>14 | 350</item>
+        <item>16 | 400</item>
+    </string-array>
+
+    <string-array name="pressure_array">
+        <item>30</item>
+        <item>100</item>
+        <item>4000</item>
+        <item>Custom</item>
+    </string-array>
+
+</resources>

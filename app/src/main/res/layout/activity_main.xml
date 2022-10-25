@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- NPS Label -->
+        <TextView
+            android:id="@+id/nps_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radius_label_text" />
+
+        <!-- NPS Spinner -->
+        <Spinner
+            android:id="@+id/nps_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:contentDescription="@string/radius_hint_text" />
+
+        <!-- Length Label -->
+        <TextView
+            android:id="@+id/length_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/length_label_text" />
+
+        <!-- Length Text Field -->
+        <EditText
+            android:id="@+id/length_edit_text"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/length_hint_text"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <!-- Pressure Label -->
+        <TextView
+            android:id="@+id/pressure_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pressure_label_text" />
+
+        <!-- Pressure Spinner -->
+        <Spinner
+            android:id="@+id/pressure_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:contentDescription="@string/pressure_selection_hint_text" />
+
+        <!-- Pressure Text Field -->
+        <EditText
+            android:id="@+id/pressure_edit_text"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pressure_custom_hint_text"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <!-- Calculate Button -->
+        <Button
+            android:id="@+id/calculate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/calculate_button_text" />
+
+        <!-- Result Label -->
+        <TextView
+            android:id="@+id/result_label_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingVertical="6dp"
+            android:text="@string/result_label_text"
+            android:textAlignment="center" />
+
+        <!-- Result Output Label -->
+        <TextView
+            android:id="@+id/result_output_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:text="839"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
